@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding-right: 2em;
+}
+
+.navbar ul li a {
+    color: white,
+}
+
+.discord,
+.twitter {
+    height: 1.2em;
+}
+
+.site-logo {
+    height: 3.4em;
+    padding-left: 2em;
+    padding-top: 0.2em;
+}

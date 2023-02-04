@@ -1,0 +1,90 @@
+.games-title {
+    // background-color: green;
+    font-family: LemonMilkBold;
+    font-size: 3em;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+    text-shadow:
+    0 0 7px #020789,
+    0 0 10px #010444,
+    0 0 21px #010444,
+    0 0 30px #000000,
+    0 0 42px #000000;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+
+.games-list {
+    // background-color: red;
+    margin: 0 auto;
+    width: 80%;
+    height: 50em;
+}
+
+.games {
+    // background-color: blue;
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    height: 50em;
+    list-style: none;
+    display: flex;
+}
+
+.games li {
+    // background-color: green;
+    margin: 0 auto;
+    width: 100%;
+    height: 20em;
+    float: left;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: #010444;
+    
+}
+
+.game-name {
+    font-family: LemonMilkBold;
+    font-size: 1em;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    text-shadow:
+    0 0 7px #020789,
+    0 0 10px #010444,
+    0 0 21px #010444,
+    0 0 30px #000000,
+    0 0 42px #000000;
+    color: white;
+}
+
+.game-desc {
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 2em;
+    text-shadow:
+    0 0 7px #020789,
+    0 0 10px #010444,
+    0 0 21px #010444,
+    0 0 30px #000000,
+    0 0 42px #000000;
+    color: white;
+}
+
+#scp {
+    background-image: url('../../assets/scp.png');
+    background-size: cover;
+}
+
+button {
+    background-color: #0cc70c;
+    font-family: LemonMilkBold;
+    color: white;
+    width: 14em;
+    height: 4em;
+    border-style: none;
+    border-radius: 10px;
+}
